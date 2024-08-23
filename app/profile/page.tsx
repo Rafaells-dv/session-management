@@ -11,7 +11,7 @@ export default async function ProfilePage() {
 
     if (value == undefined) {
         return (
-            redirect("/login")
+            window.location.href = "/login"
         );
     }
 
